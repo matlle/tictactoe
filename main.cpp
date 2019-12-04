@@ -150,8 +150,8 @@ void drawBoard(char, Node *);
 void playerMove(char, Node *);
 
 int main() {
-    std::cout << "=== [ Tic-Tac-Toe " << GRID_COL << "X" << GRID_ROW << " (by Koukougnon Martial Babo) ] ===" << std::endl;
-    std::cout << "\t\t(we assume both players play optimally)" << std::endl << std::endl;
+    std::cout << "=== [ Tic-Tac-Toe " << GRID_COL << "X" << GRID_ROW << " ] ===" << std::endl;
+    std::cout << "(we assume both players play optimally)" << std::endl << std::endl;
     char board[GRID_COL][GRID_ROW] = {0};
     Tree *tree = new Tree();
     Node *node =  new Node(board);
