@@ -49,7 +49,7 @@ public:
     /*
      * Function to evaluate a board.
      * Return 10 if Player MAX has horizontally, vertically or diagonally aligned symbol
-     * Return -10 if Player MIX has horizontally, vertically or diagonally aligned symbol
+     * Return -10 if Player MIN has horizontally, vertically or diagonally aligned symbol
      * Return 0 if no Player have aligned symbol
      * */
     static int evaluateBoard(char b[GRID_COL][GRID_ROW]) {
